@@ -1,0 +1,16 @@
+/* Metin girişi elemanlarının stili */
+input[type="text"] {
+    height: 75px;
+    width: 249px;
+    background-color: black;
+    border: 0px;
+    /* Metnin rengi */
+    color: aliceblue;
+    /* Metni sağa hizalar. */
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    /* Yatayda taşma olursa kaydırma çubuğunu ekler. */
+    overflow-x: scroll;
+}
